@@ -574,3 +574,26 @@ header nav .form i {
 }
 
 /* End Video */
+/* Start Video */
+
+.about {
+  padding-top: var(--section-padding);
+  overflow: hidden;
+  text-align: center;
+}
+
+.about img {
+  position: relative;
+  margin-top: -120px;
+  bottom: -120px;
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .about img {
+    margin-top: -50px;
+    bottom: -50px;
+  }
+}
+
+/* End Video */
